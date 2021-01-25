@@ -1,0 +1,46 @@
+list_1 = []
+
+
+for i in range(0,5):
+    num = int(input("Input your numbers"))
+    for num in list_1:
+        if num % 2 == 0:
+            list_1.append(num)
+            print("The final list with even numbers is: ", list_1)
+
+    else:
+        print("There are no even numbers in this list")
+
+
+# print("The final list with even numbers is: ", list_1)
+
+# list_1 = []
+#
+# for i in range(0, 5):
+#     add_number = int(input("Type 5 numbers"))
+#     for add_number in list_1:
+#         if add_number % 2 == 0:
+#             list_1.append(add_number)  # adding the element
+#         else:
+#             print("There are no even numbers in the list")
+# print(list_1)
+
+
+
+
+
+#     int(input("Write a list with 5 numbers"))
+# list_2 = []
+
+    # if number on list/2 == 0:
+    #     add number to list_2
+    # else:
+    #     print("No even numbers here")
+# for num in list_1:
+#     if num % 2 == 0:
+#         list_1.append()
+#     else:
+#         print("There are no even numbers in this list")
+#
+#
+# print("Here's the original list: ", list_1)
